@@ -58,7 +58,7 @@ class BonusServiceTest {
 
         // подготавливаем данные:
         long amount = 1000_60;
-        boolean registered = false;
+        boolean registered = true;
         long expected = 30;
 
         // вызываем целевой метод:

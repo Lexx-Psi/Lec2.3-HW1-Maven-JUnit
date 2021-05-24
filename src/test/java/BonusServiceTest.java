@@ -51,7 +51,7 @@ class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
-    @Test
+   
     void shouldCalculateForNotRegisteredAndOverLimit() {
         BonusService service = new BonusService();
 

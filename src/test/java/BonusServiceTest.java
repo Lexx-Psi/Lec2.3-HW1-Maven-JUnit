@@ -52,7 +52,7 @@ class BonusServiceTest {
         assertEquals(expected, actual);
     }
    
-    void shouldCalculateForNotRegisteredAndOverLimit() {
+    void shouldCalculateForNotRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
